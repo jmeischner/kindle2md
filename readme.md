@@ -40,3 +40,4 @@ Feel free to contribute to this project. You can open an issue or a pull request
 - [ ] have an easier to customize output format (like reading it from an template file or something)
 - [ ] configure the tags which are added to the note (currently it is mine: #zettelkasten)
 - [ ] maybe generalize this script to not only add the markdown to Bear but also to other note taking apps or simply create a markdown file
+- [ ] create CD to publish the package to the npm registry
