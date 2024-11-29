@@ -8,10 +8,11 @@ This is the motivation behind this project.
 
 ## What it does
 
-It converts the Kindle HTML export to a Markdown file.
+It converts the Kindle HTML exports
 
 ![Image of the exported HTML](https://github.com/jmeischner/kindle2md/blob/main/images/notes-html.png?raw=true)
 
+to Markdown and create a new note with the highlights and notes in Bear.
 ![Image of the created Bear note](https://github.com/jmeischner/kindle2md/blob/main/images/notes-bear.png?raw=true)
 
 ## Installation
