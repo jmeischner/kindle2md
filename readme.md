@@ -23,3 +23,20 @@ to Markdown and create a new note with the highlights and notes in Bear.
 ## Installation
 
 Clone the Repository, install the dependencies and install the CLI globally.
+
+## Usage
+
+```bash
+> kindle2md <path-to-html-file>
+```
+
+## Contributing
+
+Feel free to contribute to this project. You can open an issue or a pull request.
+
+*Things which would be nice to have:*
+
+- [ ] handle more languages for the Naming of the `noteType`. Currently it is only german "Notiz" and "Markierung"
+- [ ] have an easier to customize output format (like reading it from an template file or something)
+- [ ] configure the tags which are added to the note (currently it is mine: #zettelkasten)
+- [ ] maybe generalize this script to not only add the markdown to Bear but also to other note taking apps or simple create a markdown file
