@@ -36,7 +36,7 @@ Feel free to contribute to this project. You can open an issue or a pull request
 
 *Things which would be nice to have:*
 
-- [ ] handle more languages for the Naming of the `noteType`. Currently it is only german "Notiz" and "Markierung"
+- [ ] handle more languages for the naming of the `noteType`. Currently it is only german "Notiz" and "Markierung"
 - [ ] have an easier to customize output format (like reading it from an template file or something)
 - [ ] configure the tags which are added to the note (currently it is mine: #zettelkasten)
-- [ ] maybe generalize this script to not only add the markdown to Bear but also to other note taking apps or simple create a markdown file
+- [ ] maybe generalize this script to not only add the markdown to Bear but also to other note taking apps or simply create a markdown file
