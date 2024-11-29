@@ -11,13 +11,13 @@ This is the motivation behind this project.
 It converts the Kindle HTML exports
 
 <p align="center">
-<img src="/images/notes-html.png" width="250">
+<img src="/images/notes-html.png" width="450">
 </p>
 
 to Markdown and create a new note with the highlights and notes in Bear.
 
 <p align="center">
-<img src="/images/notes-bear.png" width="250">
+<img src="/images/notes-bear.png" width="450">
 </p>
 
 ## Installation
