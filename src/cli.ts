@@ -11,7 +11,7 @@ import {
 const program = new Command();
 
 program
-  .name("kindle-to-md")
+  .name("kindle2md")
   .description("Import Kindle Book Notes to with a useful format")
   .version("1.0.0");
 

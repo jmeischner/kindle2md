@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "test": "vitest",
-    "dev": "tsx src/cli.ts"
+    "dev": "tsx src/cli.ts",
+    "postinstall": "npm run build"
   },
   "bin": {
     "kindle2md": "./dist/cli.js"
