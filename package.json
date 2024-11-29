@@ -1,0 +1,32 @@
+{
+  "name": "kindle2md",
+  "version": "1.0.0",
+  "description": "Converts Kindle HTML Notes Export to a markdown format and adds it to bear",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "dev": "tsx src/cli.ts"
+  },
+  "bin": {
+    "kindle2md": "./dist/cli.js"
+  },
+  "keywords": [
+    "bear",
+    "kindle",
+    "converter"
+  ],
+  "author": "Jan Meischner",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "prettier": "^3.4.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.6"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "commander": "^12.1.0"
+  }
+}
