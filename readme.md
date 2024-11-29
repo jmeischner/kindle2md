@@ -10,11 +10,10 @@ This is the motivation behind this project.
 
 It converts the Kindle HTML export to a Markdown file.
 
-![Image of the exported HTML](https://github.com/jmeischner/kindle2md/blob/main/notes-html.png?raw=true)
+![Image of the exported HTML](https://github.com/jmeischner/kindle2md/blob/main/images/notes-html.png?raw=true)
 
-![Image of the created Bear note](https://github.com/jmeischner/kindle2md/blob/main/notes-bear.png?raw=true)
+![Image of the created Bear note](https://github.com/jmeischner/kindle2md/blob/main/images/notes-bear.png?raw=true)
 
 ## Installation
 
 Clone the Repository, install the dependencies and install the CLI globally.
-
