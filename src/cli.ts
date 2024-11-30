@@ -16,12 +16,13 @@ program
   .version("1.0.0");
 
 program
-  .argument("<notes-html-file>")
+  .argument("<htmlFile>")
+  .option("-t, --tag <tag>", "specify a booknotes tag")
   .description("read notes from file")
-  .action((htmlFile) => {
+  .action((htmlFile, options) => {
     const htmlContent = readHtmlFile(htmlFile);
     const notes = getNotesFromHtml(htmlContent);
-    const markdown = createMarkdown(notes);
+    const markdown = createMarkdown(notes, options.tag);
     pushToBear(markdown);
   });
 
