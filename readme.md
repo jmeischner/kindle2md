@@ -27,7 +27,7 @@ Clone the Repository, install the dependencies and install the CLI globally.
 ## Usage
 
 ```bash
-> kindle2md <path-to-html-file>
+> kindle2md <path-to-html-file> --tag <my-optional-tag-for-new-book-notes>
 ```
 
 ## Contributing
