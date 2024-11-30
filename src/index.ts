@@ -119,15 +119,15 @@ function getColorBubble(highlight: string | undefined): string {
 }
 
 export function createMarkdown(book: Book, booknotesTag = "booknote"): string {
-  let markdown = `# ${book.title}\n---\n#zettelkasten/> inbox#\n---\n`;
-  let newZettel = `---\n#zettelkasten/> booknotes/${new Date().toISOString().split("T")[0]} ${booknotesTag}#\n---\n`;
+  let booknote = `---\n#zettelkasten/> booknotes/${new Date().toISOString().split("T")[0]} ${booknotesTag}#\n---\n`;
+  let markdown = `# ${book.title}\n${booknote}\n`;
 
   book.sections.forEach((section) => {
     markdown += `## ${section.sectionHeading}\n`;
 
     section.notes.forEach((note) => {
       markdown += `
-- [ ] ==${getColorBubble(note.highlight)}${note.noteType}== - **${note.noteHeading}** - [Neue Notiz](bear://x-callback-url/create?title=${encodeURIComponent(note.noteHeading)}&text=${encodeURIComponent(newZettel)}&new_window=yes&edit=yes)
+- [ ] ==${getColorBubble(note.highlight)}${note.noteType}== - **${note.noteHeading}** - [Neue Notiz](bear://x-callback-url/create?title=${encodeURIComponent(note.noteHeading)}&text=${encodeURIComponent(booknote)}&new_window=yes&edit=yes)
 > ${note.noteText}
 `;
     });
